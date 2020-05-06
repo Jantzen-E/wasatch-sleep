@@ -32,6 +32,7 @@ export default class App extends Component {
             <Route exact path="/sleepinessscale">
               {/* <Scale /> */}
             </Route>
+            
             {/* <Route exact path="/reviews">
               
             </Route>
