@@ -43,17 +43,21 @@
   list-style-type: none;
   justify-content: center;
   /* background-color: rgb(170, 19, 19); */
-  margin-top: 0%;
+  /* margin-top: 1%; */
   padding: 2%;
+  padding-bottom: 0;
 }
 
 .navbarLinks {
   background-color: black;
   color: white;
   margin: 15px;
+  margin-bottom: none;
   padding: 5px;
+  padding-bottom: none;
   font-weight: 700;
   text-decoration: none;
+  border: 2px solid grey;
 }
 
 .navbarLinks:hover {
@@ -88,9 +92,9 @@ p {
   align-items: center;
 }
 
-.contactInputs {
-  /* width: 20%; */
-}
+/* .contactInputs {
+  width: 20%;
+} */
 
 .cityStateZip {
   display: flex;
@@ -110,4 +114,87 @@ p {
 .zipInput {
   display: flex;
   flex-direction: column;
+}
+
+hr {
+  width: 55%;
+  margin-top: 0;
+}
+
+.servicesPage {
+  text-align: center;
+}
+
+.services {
+  list-style: none;
+}
+
+.directionsPage {
+  text-align: center;
+}
+
+.scalePage {
+  text-align: center;
+}
+
+.numberScale {
+  text-align: center;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.scaleForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: none;
+  margin-bottom: 40px;
+}
+
+.questionAndAnswer {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  height: 30px;
+  font-size: 1.5em;
+}
+
+.scaleHeadings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.individualSituations {
+  text-align: left;
+  margin-left: 0;
+}
+
+.sitting {
+  text-align: left;
+  margin-left: 0;
+}
+
+.watching {
+  text-align: left;
+  margin-left: 0;
+}
+
+.headings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.container {
+  width: 700px;
 }

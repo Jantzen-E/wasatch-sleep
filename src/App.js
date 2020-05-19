@@ -10,6 +10,9 @@ import {
 import Nav from './components/Nav';
 import Home from './components/Home';
 import Contact from './components/Contact';
+import Services from './components/Services';
+import Directions from './components/Directions';
+import Scale from './components/Scale';
 
 export default class App extends Component {
   render() {
@@ -24,13 +27,13 @@ export default class App extends Component {
               <Contact />
             </Route>
             <Route exact path="/services">
-              {/* <Services /> */}
+              <Services />
             </Route>
-            <Route exact path="/sitemap">
-              {/* <SiteMap /> */}
+            <Route exact path="/directions">
+              <Directions />
             </Route>
             <Route exact path="/sleepinessscale">
-              {/* <Scale /> */}
+              <Scale />
             </Route>
             
             {/* <Route exact path="/reviews">

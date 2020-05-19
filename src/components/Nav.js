@@ -22,8 +22,8 @@ export default class Nav extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/sitemap" className="navbarLinks">
-              Site Map
+            <Link to="/directions" className="navbarLinks">
+              Directions
             </Link>
           </li>
           <li>
@@ -31,7 +31,13 @@ export default class Nav extends Component {
               Epworth Scale
             </Link>
           </li>
+          <li>
+            <Link to="/documents" className="navbarLinks">
+              Documents
+            </Link>
+          </li>
         </ul>
+        <hr></hr>
       </div>
     );
   }

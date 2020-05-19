@@ -13,7 +13,7 @@ class Contact extends React.Component {
                 <h1>Contact Us</h1>
                 <img src="https://lh3.googleusercontent.com/DRxevULBhMhVteSCLk8jr2tHXof460k1_gFEaFnXQILaNCTPjemRoaGmDN6jb3pmCbS2saY=s170" id="logo"></img>
                 <h3>
-                    1151 East 3900 South Suite B 240 
+                    1345 East 3900 South Suite #208 
                     <br/>
                     Salt Lake City UT 84124
                 </h3>
