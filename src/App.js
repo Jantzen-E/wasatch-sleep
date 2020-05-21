@@ -13,6 +13,7 @@ import Contact from './components/Contact';
 import Services from './components/Services';
 import Directions from './components/Directions';
 import Scale from './components/Scale';
+import Documents from './components/Documents';
 
 export default class App extends Component {
   render() {
@@ -35,19 +36,9 @@ export default class App extends Component {
             <Route exact path="/sleepinessscale">
               <Scale />
             </Route>
-            
-            {/* <Route exact path="/reviews">
-              
+            <Route exact path="/documents">
+              <Documents />
             </Route>
-            <Route exact path="/blog">
-              
-            </Route>
-            <Route exact path="/hours">
-              
-            </Route>
-            <Route exact path="/videos">
-              
-            </Route> */}
           <Switch />
       </Router>
     );

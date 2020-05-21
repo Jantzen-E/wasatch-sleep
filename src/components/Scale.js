@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
+import brain from './images/brainLogo.png';
 
 class Scale extends React.Component {
     constructor(props) {
@@ -10,6 +11,7 @@ class Scale extends React.Component {
         return (
             <div className="scalePage">
                 <h2>Epworth Sleepiness Scale (ESS)</h2>
+                <img src={brain} alt="brain logo" id="logo"/>
                 <h4>Instructions</h4>
                 <p>
                     How likely are you to doze off or fall asleep in the following situations, in contrast to just 
@@ -64,11 +66,12 @@ class Scale extends React.Component {
                     </div>
                 </div>
                 <div>
-                    <a href="">About Us |</a>
-                    <a href=""> Contact Us |</a>
-                    <a href=""> Services |</a>
-                    <a href=""> Site Map |</a>
-                    <a href=""> Epworth Sleepiness Scale</a>
+                    <a href="./">About Us |</a>
+                    <a href="./contact"> Contact Us |</a>
+                    <a href="./services"> Services |</a>
+                    <a href="./directions"> Directions |</a>
+                    <a href="./sleepinessscale"> Epworth Sleepiness Scale |</a>
+                    <a href="./documents"> Documents</a>
                     <Footer />
                 </div>
             </div>

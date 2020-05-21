@@ -83,11 +83,12 @@ class Services extends React.Component {
                     visit.  
                 </p>
                 <div>
-                    <a href="">About Us |</a>
-                    <a href=""> Contact Us |</a>
-                    <a href=""> Services |</a>
-                    <a href=""> Site Map |</a>
-                    <a href=""> Epworth Sleepiness Scale</a>
+                    <a href="./">About Us |</a>
+                    <a href="./contact"> Contact Us |</a>
+                    <a href="./services"> Services |</a>
+                    <a href="./directions"> Directions |</a>
+                    <a href="./sleepinessscale"> Epworth Sleepiness Scale |</a>
+                    <a href="./documents"> Documents</a>
                     <Footer />
                 </div>
             </div>

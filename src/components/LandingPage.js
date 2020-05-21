@@ -1,5 +1,5 @@
 import React from 'react';
-// import '../images/brain.png';
+import brain from './images/brainLogo.png';
 
 class LandingPage extends React.Component {
     constructor(props) {
@@ -9,9 +9,9 @@ class LandingPage extends React.Component {
     render() {
         return(
             <div className="mainContent">
-                <img src="./images/brain.png" id="logo"></img>
+                <img src={brain} alt="brain logo" id="logo"></img>
                 <h1>Wasatch Sleep Health Center</h1>
-                <img src="https://mdxvitals-res.cloudinary.com/private_images/h_150,w_150,c_fill,g_face,f_auto,dpr_auto/professionals/1912559/photo.jpg"></img>
+                <img src="https://mdxvitals-res.cloudinary.com/private_images/h_150,w_150,c_fill,g_face,f_auto,dpr_auto/professionals/1912559/photo.jpg" alt="David Peterson" id="doctorPhoto"></img>
                 <h2>David Peterson, M.D.</h2>
                 <p>
                     Dr. Peterson is originally from San Diego, California.  He earned his Doctor of 
@@ -35,15 +35,16 @@ class LandingPage extends React.Component {
                 </p>
                 <p>
                     Patients who have excessive daytime sleepiness indicated by an Epworth score > 8 should be evaluated.
-                    To take the Epworth Sleepiness Scale Test click here
+                    To take the Epworth Sleepiness Scale Test <a href="./sleepinessscale"><button id="testButton">Click Here</button></a>
                 </p>
-                <button>Take Test</button>
+                
                 <h3>Call Wasatch Sleep Health Center at (801) 281-1788 today!</h3>
-                <a href="">About Us |</a>
-                <a href=""> Contact Us |</a>
-                <a href=""> Services |</a>
-                <a href=""> Site Map |</a>
-                <a href=""> Epworth Sleepiness Scale</a>
+                <a href="./">About Us |</a>
+                <a href="./contact"> Contact Us |</a>
+                <a href="./services"> Services |</a>
+                <a href="./directions"> Directions |</a>
+                <a href="./sleepinessscale"> Epworth Sleepiness Scale |</a>
+                <a href="./documents"> Documents</a>
             </div>
         );
     }

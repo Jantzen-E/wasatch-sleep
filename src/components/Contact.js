@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
+import brain from './images/brainLogo.png';
 // import Page from './Page'; 
 
 class Contact extends React.Component {
@@ -11,7 +12,7 @@ class Contact extends React.Component {
         return (
             <div className="contactPage">
                 <h1>Contact Us</h1>
-                <img src="https://lh3.googleusercontent.com/DRxevULBhMhVteSCLk8jr2tHXof460k1_gFEaFnXQILaNCTPjemRoaGmDN6jb3pmCbS2saY=s170" id="logo"></img>
+                <img src={brain} id="logo"></img>
                 <h3>
                     1345 East 3900 South Suite #208 
                     <br/>
@@ -55,11 +56,12 @@ class Contact extends React.Component {
                         <button>Reset</button>
                     </div>
                 </form>
-                <a href="">About Us |</a>
-                <a href=""> Contact Us |</a>
-                <a href=""> Services |</a>
-                <a href=""> Site Map |</a>
-                <a href=""> Epworth Sleepiness Scale</a>
+                <a href="./">About Us |</a>
+                <a href="./contact"> Contact Us |</a>
+                <a href="./services"> Services |</a>
+                <a href="./directions"> Directions |</a>
+                <a href="./sleepinessscale"> Epworth Sleepiness Scale |</a>
+                <a href="./documents"> Documents</a>
                 <Footer />
             </div>
         )

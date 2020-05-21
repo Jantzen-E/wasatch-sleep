@@ -75,10 +75,47 @@ p {
 }
 
 #logo {
-  width: 400px;
+  width: 300px;
+  height: 192px;
+  padding-top: 20px;
+}
+
+#doctorPhoto {
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+}
+
+#map {
+  height: 50%;
+  width: 50%;
+  padding: 30px;
+}
+
+#directionsButton {
+  margin-bottom: 20px;
+}
+
+.footer {
+  padding: 30px;
+}
+
+#testButton {
+  margin-left: 10px;
+}
+
+.streetMap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactPage {
+  text-align: center;
+}
+
+.documentsPage {
   text-align: center;
 }
 
@@ -91,10 +128,6 @@ p {
   flex-direction: column;
   align-items: center;
 }
-
-/* .contactInputs {
-  width: 20%;
-} */
 
 .cityStateZip {
   display: flex;
