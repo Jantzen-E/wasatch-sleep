@@ -51,10 +51,14 @@ class Contact extends React.Component {
                     <label>Email:</label>
                     <input type="text" className="contactInputs"/>
                     <br/>
+                    <textarea rows="10" cols="60"></textarea>
+                    <br/>
+                    <br/>
                     <div>
                         <button>Submit</button>
-                        <button>Reset</button>
                     </div>
+                    <br/>
+                    <br/>
                 </form>
                 <a href="./">About Us |</a>
                 <a href="./contact"> Contact Us |</a>
