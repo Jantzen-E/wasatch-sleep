@@ -248,3 +248,12 @@ input {
 .container {
   width: 700px;
 }
+
+.addressHeader {
+  margin-bottom: 0;
+  font-weight: 800;
+}
+
+.download {
+  margin-bottom: 10px;
+}
