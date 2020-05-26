@@ -3,6 +3,8 @@ import Footer from './Footer';
 import brain from './images/brainLogo.png';
 import sleepinessScoreForm from './forms/sleepinessScore.pdf';
 import newPatientForms from './forms/newPatientForms.pdf';
+import sleepHealthQuestionnaire from './forms/sleepHealthQuestionnaire.pdf';
+import headacheMedication from './forms/headacheMedication.pdf';
 
 // let button = document.getElementsByClassName("download");
 // let form = document.getElementsByClassName("hidden");
@@ -38,8 +40,29 @@ class Documents extends React.Component {
                     <br/>
                     <br/>
                     <br/>
+                    <br/>
+                    <br/>
+                    <h3>Sleep Health Questionnaire</h3>
+                    <embed src={sleepHealthQuestionnaire} type="application/pdf" width="65%" height="600px" className="hidden"/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <h3>Headache Medication List</h3>
+                    <embed src={headacheMedication} type="application/pdf" width="65%" height="600px" className="hidden"/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
                     <h3>Epworth Sleepiness Scale Score</h3>
                     <embed src={sleepinessScoreForm} type="application/pdf" width="65%" height="600px" className="hidden"/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
                 </div>
                 <a href="./">About Us |</a>
                 <a href="./contact"> Contact Us |</a>
