@@ -36,28 +36,28 @@ class Documents extends React.Component {
                 </p>
                 <div className="docContainer">
                     <h3>New Patient Forms</h3>
-                    <embed src={newPatientForms} type="application/pdf" width="65%" height="600px" className="hidden"/>
+                    <a href={newPatientForms} type="application/pdf" width="65%" height="600px" className="hidden">Click here to download/print</a>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <h3>Sleep Health Questionnaire</h3>
-                    <embed src={sleepHealthQuestionnaire} type="application/pdf" width="65%" height="600px" className="hidden"/>
+                    <a href={sleepHealthQuestionnaire} type="application/pdf" width="65%" height="600px" className="hidden">Click here to download/print</a>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <h3>Headache Medication List</h3>
-                    <embed src={headacheMedication} type="application/pdf" width="65%" height="600px" className="hidden"/>
+                    <a href={headacheMedication} type="application/pdf" width="65%" height="600px" className="hidden">Click here to download/print</a>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <h3>Epworth Sleepiness Scale Score</h3>
-                    <embed src={sleepinessScoreForm} type="application/pdf" width="65%" height="600px" className="hidden"/>
+                    <a href={sleepinessScoreForm} type="application/pdf" width="65%" height="600px" className="hidden">Click here to download/print</a>
                     <br/>
                     <br/>
                     <br/>
