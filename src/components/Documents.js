@@ -64,12 +64,6 @@ class Documents extends React.Component {
                     <br/>
                     <br/>
                 </div>
-                <a href="./">About Us |</a>
-                <a href="./contact"> Contact Us |</a>
-                <a href="./services"> Services |</a>
-                <a href="./directions"> Directions |</a>
-                <a href="./sleepinessscale"> Epworth Sleepiness Scale |</a>
-                <a href="./documents"> Documents</a>
                 <Footer />
             </div>
         )

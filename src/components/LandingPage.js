@@ -39,12 +39,6 @@ class LandingPage extends React.Component {
                 </p>
                 
                 <h3>Call Wasatch Sleep Health Center at (801) 281-1788 today!</h3>
-                <a href="./">About Us |</a>
-                <a href="./contact"> Contact Us |</a>
-                <a href="./services"> Services |</a>
-                <a href="./directions"> Directions |</a>
-                <a href="./sleepinessscale"> Epworth Sleepiness Scale |</a>
-                <a href="./documents"> Documents</a>
             </div>
         );
     }

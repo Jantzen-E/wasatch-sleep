@@ -37,6 +37,10 @@
   }
 }
 
+body {
+  background-color: rgb(205, 205, 233);
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -65,6 +69,18 @@
   font-style: italic;
 }
 
+a:hover {
+  color: red;
+}
+
+.footer a:hover {
+  color: red;
+}
+
+button:hover {
+  background-color: red;
+}
+
 .mainContent {
   text-align: center;
 }
@@ -75,8 +91,8 @@ p {
 }
 
 #logo {
-  width: 300px;
-  height: 192px;
+  width: 150px;
+  height: 96px;
   padding-top: 20px;
 }
 
@@ -98,6 +114,32 @@ p {
 
 .footer {
   padding: 30px;
+  background-color: black;
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer .footerTitle {
+  font-size: 2em;
+  margin: 10px;
+  margin-top: 35px;
+}
+
+#logoFooter {
+  width: 50px;
+  height: 32px;
+  padding-top: 32px;
+  padding-right: 20px;
+}
+
+.footerFormat {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 #testButton {
