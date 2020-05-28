@@ -79,7 +79,7 @@ class Contact extends React.Component {
                     <br/>
                     <br/>
                     <div>
-                        {status === "SUCCESS" ? <p>Thanks!</p> : <button type="submit" value="Send">Submit</button>}
+                        {status === "SUCCESS" ? <p>Thanks!</p> : <button type="submit" value="Send" className="submitButton">Submit</button>}
                         {status === "ERROR" && <p>Ooops! There was an error.</p>}
                     </div>
                 </form>

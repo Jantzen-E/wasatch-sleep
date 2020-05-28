@@ -35,7 +35,7 @@ class LandingPage extends React.Component {
                 </p>
                 <p>
                     Patients who have excessive daytime sleepiness indicated by an Epworth score > 8 should be evaluated.
-                    To take the Epworth Sleepiness Scale Test <a href="./sleepinessscale"><button id="testButton">Click Here</button></a>
+                    To take the Epworth Sleepiness Scale Test <a href="./sleepinessscale"><button className="testButton">Click Here</button></a>
                 </p>
                 
                 <h3>Call Wasatch Sleep Health Center at (801) 281-1788 today!</h3>
