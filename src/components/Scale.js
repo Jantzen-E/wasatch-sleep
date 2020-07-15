@@ -95,7 +95,7 @@ class Scale extends React.Component {
                         <div className="questionAndAnswer" id="scaleBorder">
                             <p className="individualSituations">TOTAL: </p>
                             {/* <button>What's my total?</button> */}
-                            <input type="text" id="scaleTotal"></input>
+                            <input type="text" id="scaleTotal" placeholder="add numbers above"></input>
                         </div>
                     </div>
                 </div>

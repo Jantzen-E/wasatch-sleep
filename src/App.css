@@ -88,6 +88,11 @@ button:hover {
   color: white;
 }
 
+button#directionsButton:hover {
+  color: white;
+  background-color: rgb(106, 106, 94);
+}
+
 .mainContent {
   text-align: center;
 }
@@ -118,11 +123,12 @@ p {
 }
 
 #map {
-  height: 50%;
-  width: 50%;
+  height: 80%;
+  width: 80%;
   /* padding: 30px; */
   border: 2px solid rgb(70, 74, 75);
   margin-top: 20px;
+  cursor: pointer;
 }
 
 #directionsButton {
@@ -131,6 +137,12 @@ p {
   border-radius: 10%;
   margin-top: 20px;
   font-size: 1.2em;
+  padding: 6px;
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
 }
 
 .footer {
@@ -265,7 +277,8 @@ hr {
 }
 
 #scaleTotal {
-  width: 11.5%;
+  width: 21.5%;
+  font-size: 1em;
 }
 
 #scaleBorder {

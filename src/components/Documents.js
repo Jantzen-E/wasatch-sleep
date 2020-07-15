@@ -40,12 +40,8 @@ class Documents extends React.Component {
                     <br/>
                     <br/>
                     <br/>
-                    <br/>
-                    <br/>
                     <h3>Sleep Health Questionnaire</h3>
                     <a href={sleepHealthQuestionnaire} type="application/pdf" width="65%" height="600px" className="hidden">Click here to download/print</a>
-                    <br/>
-                    <br/>
                     <br/>
                     <br/>
                     <br/>
@@ -54,11 +50,8 @@ class Documents extends React.Component {
                     <br/>
                     <br/>
                     <br/>
-                    <br/>
-                    <br/>
                     <h3>Epworth Sleepiness Scale Score</h3>
                     <a href={sleepinessScoreForm} type="application/pdf" width="65%" height="600px" className="hidden">Click here to download/print</a>
-                    <br/>
                     <br/>
                     <br/>
                     <br/>

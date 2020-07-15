@@ -82,6 +82,8 @@ class Services extends React.Component {
                     submit your name and phone number.  Our receptionist will give you a call to schedule a clinic 
                     visit.  
                 </p>
+                <br/>
+                <br/>
                 <div>
                     <Footer />
                 </div>
