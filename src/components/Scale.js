@@ -2,23 +2,23 @@ import React from 'react';
 import Footer from './Footer';
 import brain from './images/brainLogo.png';
 
-let q1 = document.getElementById('#question1');
-let q2 = document.getElementById('#question2');
-let q3 = document.getElementById('#question3');
-let q4 = document.getElementById('#question4');
-let q5 = document.getElementById('#question5');
-let q6 = document.getElementById('#question6');
-let q7 = document.getElementById('#question7');
-let q8 = document.getElementById('#question8');
+// let q1 = document.getElementById('#question1');
+// let q2 = document.getElementById('#question2');
+// let q3 = document.getElementById('#question3');
+// let q4 = document.getElementById('#question4');
+// let q5 = document.getElementById('#question5');
+// let q6 = document.getElementById('#question6');
+// let q7 = document.getElementById('#question7');
+// let q8 = document.getElementById('#question8');
 
-let result = q1 + q2 + q3+ q4 + q5 + q6 + q7 + q8;
+// let result = q1 + q2 + q3+ q4 + q5 + q6 + q7 + q8;
 
 class Scale extends React.Component {
     constructor(props) {
         super(props);
         this.state = {value1: ''};
 
-        this.handleChange = this.handleChange.bind(this);
+        // this.handleChange = this.handleChange.bind(this);
     }
 
     // calculate() {
@@ -27,13 +27,13 @@ class Scale extends React.Component {
     //         document.querySelector('#scaleTotal').innerHTML = result;
     // }
 
-    handleChange(event) {
-        this.setState({value: event.target.value})
-    };
+    // handleChange(event) {
+    //     this.setState({value: event.target.value})
+    // };
 
-    sum() {
-        document.querySelector('#scaleTotal').innerHTML = 3;
-    }
+    // sum() {
+    //     document.querySelector('#scaleTotal').innerHTML = 3;
+    // }
 
     render() {
         return (

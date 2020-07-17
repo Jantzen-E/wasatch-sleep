@@ -13,7 +13,7 @@ class Contact extends React.Component {
             <div className="contactPage">
                 <h1>Contact Us</h1>
                 <br/>
-                <img src={brain} id="logo"></img>
+                <img src={brain} id="logo" alt="brain logo"></img>
                 <br/>
                 <br/>
                 <h3>
