@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, NavLink, Redirect } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default class Nav extends Component {
   render() {
