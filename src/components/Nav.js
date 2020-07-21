@@ -7,32 +7,32 @@ export default class Nav extends Component {
       <div>
         <ul className="navbar">
           <li>
-            <NavLink to="/" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact Redirect to="/" className="navbarLinks">
+            <NavLink to="/" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact className="navbarLinks">
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact Redirect to="/" className="navbarLinks">
+            <NavLink to="/contact" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact className="navbarLinks">
               Contact
             </NavLink>
           </li>
           <li>
-            <NavLink to="/services" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact Redirect to="/" className="navbarLinks">
+            <NavLink to="/services" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact className="navbarLinks">
               Services
             </NavLink>
           </li>
           <li>
-            <NavLink to="/directions" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact Redirect to="/" className="navbarLinks">
+            <NavLink to="/directions" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact className="navbarLinks">
               Directions
             </NavLink>
           </li>
           <li>
-            <NavLink to="/sleepinessscale" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact Redirect to="/" className="navbarLinks">
+            <NavLink to="/sleepinessscale" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact className="navbarLinks">
               Epworth Scale
             </NavLink>
           </li>
           <li>
-            <NavLink to="/documents" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact Redirect to="/" className="navbarLinks">
+            <NavLink to="/documents" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact className="navbarLinks">
               Documents
             </NavLink>
           </li>
