@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink, Redirect } from "react-router-dom";
 
 export default class Nav extends Component {
   render() {
@@ -7,34 +7,34 @@ export default class Nav extends Component {
       <div>
         <ul className="navbar">
           <li>
-            <Link to="/" className="navbarLinks">
+            <NavLink to="/" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact Redirect to="/" className="navbarLinks">
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/contact" className="navbarLinks">
+            <NavLink to="/contact" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact Redirect to="/" className="navbarLinks">
               Contact
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/services" className="navbarLinks">
+            <NavLink to="/services" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact Redirect to="/" className="navbarLinks">
               Services
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/directions" className="navbarLinks">
+            <NavLink to="/directions" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact Redirect to="/" className="navbarLinks">
               Directions
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/sleepinessscale" className="navbarLinks">
+            <NavLink to="/sleepinessscale" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact Redirect to="/" className="navbarLinks">
               Epworth Scale
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/documents" className="navbarLinks">
+            <NavLink to="/documents" activeStyle={{ color: 'rgb(192, 168, 137)'}} exact Redirect to="/" className="navbarLinks">
               Documents
-            </Link>
+            </NavLink>
           </li>
         </ul>
         <hr></hr>
