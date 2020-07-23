@@ -1,10 +1,10 @@
 import React from 'react';
 import Footer from './Footer';
 import brain from './images/brainLogo.png';
-import sleepinessScoreForm from './forms/sleepinessScore.pdf';
-import newPatientForms from './forms/newPatientForms.pdf';
-import sleepHealthQuestionnaire from './forms/sleepHealthQuestionnaire.pdf';
-import headacheMedication from './forms/headacheMedication.pdf';
+import sleepinessScoreForm from './forms/scale.pdf';
+import newPatientForms from './forms/newPatient.pdf';
+import sleepHealthQuestionnaire from './forms/questionaire.pdf';
+import headacheMedication from './forms/medication.pdf';
 
 // let button = document.getElementsByClassName("download");
 // let form = document.getElementsByClassName("hidden");
