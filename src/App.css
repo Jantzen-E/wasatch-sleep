@@ -181,6 +181,7 @@ input {
   background-color: rgb(192, 168, 137);
   font-size: 1.2em;
   border-radius: 10%;
+  cursor: pointer;
 }
 
 .submitButton {
