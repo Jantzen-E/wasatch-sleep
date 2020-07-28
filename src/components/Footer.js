@@ -17,7 +17,7 @@ class Footer extends React.Component {
                 <a href="./documents"> Documents</a>
                 <div className="footerFormat">
                     <img src={brain} alt="brain logo" id="logoFooter"></img>
-                    <h5 className="footerTitle">Wasatch Sleep Health Center 2020</h5>
+                    <h5 className="footerTitle">Wasatch Sleep Health Center</h5>
                 </div>
             </div>
         );   
