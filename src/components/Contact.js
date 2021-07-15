@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
 import brain from './images/brainLogo.png';
+import '../Responsive.css';
 // import Page from './Page'; 
 
 function Contact() {

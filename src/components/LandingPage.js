@@ -1,5 +1,6 @@
 import React from 'react';
 import brain from './images/brainLogo.png';
+import '../Responsive.css';
 
 function LandingPage() {
     return(
@@ -29,7 +30,7 @@ function LandingPage() {
                 certified by the American Board of Psychiatry and Neurology. 
             </p>
             <p>
-                Patients who have excessive daytime sleepiness indicated by an Epworth score > 8 should be evaluated.
+                Patients who have excessive daytime sleepiness indicated by an Epworth score &gt; 8 should be evaluated.
                 To take the Epworth Sleepiness Scale Test <a href="./sleepinessscale"><button className="testButton">Click Here</button></a>
             </p>
             

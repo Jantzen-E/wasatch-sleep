@@ -5,6 +5,7 @@ import sleepinessScoreForm from './forms/scale.pdf';
 import newPatientForms from './forms/newPatient.pdf';
 import sleepHealthQuestionnaire from './forms/questionaire.pdf';
 import headacheMedication from './forms/medication.pdf';
+import '../Responsive.css';
 
 // let button = document.getElementsByClassName("download");
 // let form = document.getElementsByClassName("hidden");

@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
 import map from './images/map.PNG';
+import '../Responsive.css';
 
 function Directions() {
     return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import brain from './images/brainLogo.png';
+import '../Responsive.css';
 
 function Footer() {
     return(

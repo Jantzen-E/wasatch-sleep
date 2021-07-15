@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
 import brain from './images/brainLogo.png';
+import '../Responsive.css';
 
 // let q1 = document.getElementById('#question1');
 // let q2 = document.getElementById('#question2');
